@@ -83,3 +83,14 @@ h3{
       --angle: 360deg;
     }
   }
+@media (max-width:600px) {
+    .box{
+        width: auto;
+        height: auto;
+        padding: 8%;
+    }
+    h1{
+        font-size: 40px;
+    }
+
+}
