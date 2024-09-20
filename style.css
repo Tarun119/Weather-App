@@ -44,9 +44,10 @@ h3{
 .box{
     position: relative;
     color: #EEEEEE;
-    padding: 15px;
+     padding: 3%;
     height: 80vh;
     width: 35%;
+    height: auto;
     border-radius: 10%;
     background-color: #31363F;
     text-align: center;
