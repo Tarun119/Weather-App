@@ -47,6 +47,7 @@ async function checkWeather(city){
         document.querySelector(".weather").innerHTML=data.weather[0].main;
         document.querySelector(".date").innerHTML=d.getDate()+"-"+d.getMonth()+"-"+d.getFullYear();
         document.querySelector(".temperature").innerHTML=(data.main.temp-273.5).toFixed(2)+"°c";
+        document.querySelector(".humidity").innerHTML="Humidity: "+data.main.humidity+"%";
         document.querySelector(".wind").innerHTML="Wind Speed: "+data.wind.speed+"m/s";
     }
     // console.log(data);
